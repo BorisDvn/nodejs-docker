@@ -1,7 +1,0 @@
-sudo: required
-services:
-  - docker
-
-script:
-  - docker build -t borisdovo/node2 .
-  - docker image borisdovo/node2
